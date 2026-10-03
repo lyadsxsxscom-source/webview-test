@@ -41,6 +41,11 @@ jobs:
           chmod +x scripts/setup-signing.sh
           ./scripts/setup-signing.sh
 
+      - name: Back button handling
+        run: |
+          chmod +x scripts/setup-back.sh
+          ./scripts/setup-back.sh
+
       - name: Setup Java
         uses: actions/setup-java@v5
         with:
