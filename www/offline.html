@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>اسم التطبيق</title>
+<style>
+  :root{--c:#0F5C6E}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;font-family:system-ui,"Segoe UI",Tahoma,sans-serif;background:#f4f6f8;color:#1c2630;text-align:center}
+  main{max-width:360px}
+  .dot{width:72px;height:72px;border-radius:50%;background:var(--c);margin:0 auto 22px;position:relative}
+  .dot::after{content:"";position:absolute;inset:22px;border:5px solid #fff;border-radius:50%;border-top-color:transparent}
+  h1{font-size:1.35rem;margin:0 0 8px}
+  p{margin:0 0 22px;color:#51606d;line-height:1.6}
+  a{display:inline-block;background:var(--c);color:#fff;text-decoration:none;font-weight:700;padding:13px 28px;border-radius:12px}
+  @media (prefers-color-scheme:dark){body{background:#12171c;color:#e9eef2}p{color:#9fb0bd}}
+</style>
+</head>
+<body>
+<main>
+  <div class="dot" aria-hidden="true"></div>
+  <h1>ما في اتصال بالإنترنت</h1>
+  <p>تأكد من الواي فاي أو بيانات الجوال، وبعدين جرّب مرة تانية.</p>
+  <a href="https://example.com">إعادة المحاولة</a>
+</main>
+</body>
+</html>
