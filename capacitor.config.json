@@ -1,16 +1,16 @@
 {
-  "appId": "com.example.siteapp",
-  "appName": "اسم التطبيق",
+  "appId": "com.lyad.menuapp",
+  "appName": "منيو مطعم الميناء",
   "webDir": "www",
-  "backgroundColor": "#0F5C6E",
+  "backgroundColor": "#0D2B36",
   "server": {
-    "url": "https://example.com",
+    "url": "https://lyadsxsxscom-source.github.io/webview-test-2/",
     "androidScheme": "https",
     "cleartext": false,
     "errorPath": "offline.html",
     "allowNavigation": [
-      "example.com",
-      "*.example.com"
+      "lyadsxsxscom-source.github.io",
+      "*.lyadsxsxscom-source.github.io"
     ]
   },
   "android": {

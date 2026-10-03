@@ -1,6 +1,6 @@
 {
-  "appId": "com.example.siteapp",
-  "appName": "اسم التطبيق",
-  "url": "https://example.com",
-  "themeColor": "#0F5C6E"
+  "appId": "com.lyad.menuapp",
+  "appName": "منيو مطعم الميناء",
+  "url": "https://lyadsxsxscom-source.github.io/webview-test-2/",
+  "themeColor": "#0D2B36"
 }
